@@ -1,0 +1,27 @@
+This is Apache::MSIISProbes
+
+This module catches attempts by worms designed for
+Microsoft IIS to infect an Apache server, and 
+responds by sending mail to various people 
+responsible for the host computer that launched the
+attack.
+
+The module is extensible and as new worms are created
+the Apache server administrator can catch them by
+simply adding a regexp matching the URI the worm is
+attempting to exploit to the Apache configuration file.
+
+The user can also control the number of e-mail messages
+to be sent as well as the recipients.
+
+The module also displays statistics on the number of
+attacks on the Apache server.
+
+More information and the latest version of this module
+can be found at
+http://www.tonkinresolutions.com/software/perl/Apache/MSIISProbes/
+
+Enjoy!
+
+-- nick
+
